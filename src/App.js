@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { HeroesList } from './components/HeroesList'
 import { ImageGrid } from './components/ImageGrid';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 
 export const App=()=> {
   const [categories, setCategories] = useState([])
